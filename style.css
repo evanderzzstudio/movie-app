@@ -32,6 +32,17 @@ header {
     color: #fff;
 }
 
-.search::placeholder{
+.search::placeholder {
     color: #cfd1e9;
+}
+
+.search:focus {
+    outline: none;
+    background-color: var(--primary-color);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
